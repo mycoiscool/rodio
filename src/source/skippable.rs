@@ -1,7 +1,6 @@
 use std::time::Duration;
 
-use Sample;
-use Source;
+use crate::{Sample, Source};
 
 /// Internal function that builds a `Skippable` object.
 pub fn skippable<I>(source: I) -> Skippable<I> {
